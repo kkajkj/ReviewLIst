@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  margin: auto;
+  gap: 0.7rem;
+  width: 65%;
+}
+.container .review-card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border: none;
+}
+.name {
+  color: black;
+}
+.name-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12rem;
+}
+.rating-date {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.right-icons {
+  display: flex;
+  gap: 7px;
+  font-size: large;
+  color: black;
+}
+
+.highlight.positive {
+  background-color: #d9f2dd;
+}
+
+.highlight.negative {
+  background-color: #f2dbd9;
+}
+
+.highlight.neutral {
+  background-color: #eaf09b6b;
+}
+.highlight.mixed {
+  background-color: #e8bd6d3d;
+}
